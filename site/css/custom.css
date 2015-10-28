@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+header {
+  text-align: center; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+.container {
+  width: 100%;
+  padding: 15px; }
+  @media screen and (min-width: 768px) {
+    .container {
+      width: 90%;
+      max-width: 960px;
+      margin: 0 auto; }
+      .container img, .container h2, .container p {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        .container img:last-child, .container h2:last-child, .container p:last-child {
+          margin-right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .container {
+      max-width: 1040px;
+      margin: 0 auto; } }
