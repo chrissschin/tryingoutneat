@@ -13,6 +13,7 @@ var buffer = require('vinyl-buffer');
 var browserSync = require('browser-sync').create();
 var neat = require('node-neat').includePaths;
 
+
 // JavaScript linting task
 gulp.task('jshint', function() {
   return gulp.src('site/js/*.js')
